@@ -1,0 +1,19 @@
+//
+// Created by trist on 28/06/2023.
+//
+
+#ifndef PARACHUTE2_CONSTANTE_H
+#define PARACHUTE2_CONSTANTE_H
+
+enum {INACTIF, TOMBE, PARACHUTE, PLATEFORME, VIDE};
+enum{HAUT, DROITE, BAS, GAUCHE, NBKEY};
+
+#define WIDTH 1200
+#define HEIGHT 600
+#define FPS 60.0 //Timer
+
+#define FONTSIZE 20
+#define HERBPLAT 5
+
+
+#endif //PARACHUTE2_CONSTANTE_H
