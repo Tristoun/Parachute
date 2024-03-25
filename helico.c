@@ -5,10 +5,10 @@
 #include "helico.h"
 #include "constante.h"
 
-void init_helico(Helicopter* helicopter) {
-    helicopter->x = 0;
+void init_helico(Helicopter* helicopter, int x, int direction) {
+    helicopter->x = x;
     helicopter->y = FONTSIZE;
-    helicopter->direction = 0;
+    helicopter->direction = direction;
     helicopter->speed = 5;
     helicopter->img = al_load_bitmap("../image/helico96.png");
     assert(helicopter->img != NULL);
@@ -24,3 +24,4 @@ void start_move(Helicopter *helicopter) {
             break;
     }
 }
+

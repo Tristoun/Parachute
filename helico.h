@@ -10,7 +10,7 @@ typedef struct {
     ALLEGRO_BITMAP* img;
 }Helicopter;
 
-void init_helico(Helicopter* helicopter);
+void init_helico(Helicopter* helicopter, int x, int direction);
 void start_move(Helicopter *helicopter);
 
 #endif //PARACHUTE2_HELICO_H
